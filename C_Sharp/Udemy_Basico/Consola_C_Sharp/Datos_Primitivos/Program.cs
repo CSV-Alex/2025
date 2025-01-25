@@ -15,15 +15,20 @@ namespace Datos_Primitivos
             double sueldo;
             bool casado;
 
-            edad = 10;
-            nombre = "Victor";
-            sueldo = 100.50;
-            casado = true;
+            Console.Write("Cuál es tu nombre?: ");
+            nombre = Console.ReadLine();
 
-            Console.WriteLine("Edad es: " + edad);
-            Console.WriteLine("Nombre es: " + nombre);
-            Console.WriteLine("Sueldo es: " + sueldo);
-            Console.WriteLine("Estado civil es: " + casado);
+            Console.Write("Cuál es tu edad?: ");
+            edad = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Ingresa tu sueldo: ");
+            sueldo = Convert.ToDouble(Console.ReadLine());
+            
+            Console.Write("Casado?: ");
+            casado = Convert.ToBoolean(Console.ReadLine());
+
+            Console.WriteLine("Tu nombre es: " + nombre + " y tu edad es: " + edad);
+            Console.WriteLine("Tu sueldo es: " + sueldo + " y tu consulta de casado es: " + casado);
             Console.ReadKey();
         }
     }
