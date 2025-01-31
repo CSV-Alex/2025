@@ -10,6 +10,7 @@ namespace Variable_Dinamica
     {
         static void Main(string[] args)
         {
+            //The variable can be assigned a different type of value
             dynamic variableDinamica = 10;
             Console.WriteLine(variableDinamica);
             variableDinamica = "Hola Mundo";
