@@ -10,6 +10,7 @@ namespace Estructuras
     {
         static void Main(string[] args)
         {
+            /*
             int Dia;
             Console.Write("Ingrese el dia en formato numerico: ");
             Dia = int.Parse(Console.ReadLine());
@@ -40,9 +41,20 @@ namespace Estructuras
                 default:
                     Console.WriteLine("Ingrese un dia valido, porfavor");
                     break;
+            
 
             }
+            */
 
+            int Numero;
+            Numero = 1;
+
+            do
+            {
+                Console.WriteLine("Numero: " + Numero);
+                Numero++;
+            } while (Numero < 11);
+            Console.ReadKey();
         }
     }
 }
