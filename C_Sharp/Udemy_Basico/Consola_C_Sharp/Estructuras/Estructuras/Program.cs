@@ -46,6 +46,8 @@ namespace Estructuras
             }
             */
 
+            // ESTRUCTURA CICLICA DO-WHILE
+            /*
             int Numero;
             Numero = 1;
 
@@ -55,6 +57,19 @@ namespace Estructuras
                 Numero++;
             } while (Numero < 11);
             Console.ReadKey();
+            */
+
+            // ESTRUCTURA CICLICA WHILE
+
+            int Correlativo;
+            Correlativo = 0;
+            Console.WriteLine("La tabla del 5");
+
+            while (Correlativo <= 12)
+            {
+                Console.WriteLine(Correlativo + " x 5 = " + Correlativo * 5);
+                Correlativo++;
+            }
         }
     }
 }
