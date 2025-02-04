@@ -16,6 +16,8 @@ namespace Vectors
             {
                 Console.WriteLine(Nombres[i]);
             }
+
+            Console.ReadKey();
         }
     }
 }
