@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.Eventing.Reader;
 
 namespace Metodos
 {
@@ -9,7 +10,7 @@ namespace Metodos
             Console.WriteLine("Ejemplo de métodos en C#");
 
             Saludar();
-            IngresoDatos();
+            IngresoNumero();
         }
 
         // Metodo ejemplo 1
@@ -18,13 +19,65 @@ namespace Metodos
             Console.WriteLine("Saludos desde el método Saludar");
         }
 
-        // Metodo ejemplo 2
-        static void IngresoDatos()
+
+        // Método ejemplo 2: IngresoNumero
+        static void IngresoNumero()
         {
-            string Nombre;
-            Console.Write("Ingresa tu nombre: ");
-            Nombre = Console.ReadLine();
-            Console.WriteLine("Hola " + Nombre);
+            int numero;
+            Console.Write("Ingresa tu número: ");
+            string input = Console.ReadLine();
+
+
+            if (int.TryParse(input, out numero))
+            {
+                Console.WriteLine("\nTabla de Sumar o Multiplicar");
+                Console.WriteLine("1. Sumar");
+                Console.WriteLine("2. Multiplicar");
+                Console.Write("Elige una opción: ");
+
+                if (int.TryParse(Console.ReadLine(), out int option))
+                {
+                    switch (option)
+                    {
+                        case 1:
+                            Sumar(numero);
+                            break;
+                        case 2:
+                            Multiplicar(numero);
+                            break;
+                        default:
+                            Console.WriteLine("Opción no válida. Inténtalo de nuevo.");
+                            break;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Entrada no válida. Debes ingresar un número.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Entrada no válida. Debes ingresar un número.");
+            }
+        }
+
+
+        // Metodo de la tabla de Sumar
+        static void Sumar(int num)
+        {
+            for (int i = 1; i <= 12; i++)
+            {
+                Console.WriteLine(num + " + " + i + " = " + (num + i));
+            }
+        }
+
+        // Metodo de la tabla de Multiplicar
+        static void Multiplicar(int num)
+        {
+            for (int i = 1; i <= 12; i++)
+            {
+                Console.WriteLine(num + " * " + i + " = " + (num * i));
+            }
         }
     }
 }
