@@ -10,6 +10,8 @@ namespace Chapter02
     {
         static void Main(string[] args)
         {
+            var exercise3 = new Exercise03();
+            exercise3.Execute();
         }
     }
 }

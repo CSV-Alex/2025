@@ -23,24 +23,24 @@ namespace Chapter02
             byte e = 224;
 
             // short: Signed 16-bit integer (-32,768 to 32,767)
-            short e = -10000;
-            short f = 1990;
+            short f = -10000;
+            short g = 1990;
 
             // ushort: Unsigned 16-bit integer (0 to 65,535)
-            ushort g = 20000;
+            ushort h = 20000;
 
             // int: Signed 32-bit integer (-2,147,483,648 to 2,147,483,647)
-            int h = 52130;
-            int i = 4825932;
+            int i = 52130;
+            int j = 4825932;
 
             //uint : Unsigned 32-bit integer (0 to 4,294,967,295)
-            uint j = 970700000;
+            uint k = 970700000;
 
             // long: Signed 64-bit integer (-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807)
-            long k = -1000000000000000000;
+            long l = -1000000000000000000;
 
             // ulong: Unsigned 64-bit integer (0 to 18,446,744,073,709,551,615)
-            ulong l = 123456789123456789;
+            ulong m = 123456789123456789;
         }
     }
 }
