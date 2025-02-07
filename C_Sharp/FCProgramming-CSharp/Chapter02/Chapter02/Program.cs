@@ -12,6 +12,9 @@ namespace Chapter02
         {
             var exercise3 = new Exercise03();
             exercise3.Execute();
+
+            var exercise4 = new Exercise04();
+            exercise4.Execute();
         }
     }
 }
