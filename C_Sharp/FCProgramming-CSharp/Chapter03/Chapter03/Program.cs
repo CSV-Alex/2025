@@ -16,6 +16,9 @@ namespace Chapter03
             Exercise02 exercise02 = new Exercise02();
             exercise02.Execute();
 
+            Exercise03 exercise03 = new Exercise03();
+            exercise03.Execute();
+
         }
     }
 }
