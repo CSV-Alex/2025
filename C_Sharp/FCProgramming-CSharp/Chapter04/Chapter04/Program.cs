@@ -1,5 +1,4 @@
 ﻿using System;
-using Nakov.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +10,8 @@ namespace Chapter04
     {
         static void Main(string[] args)
         {
+            Exercise01 exercise01 = new Exercise01();
+            exercise01.Execute();
         }
     }
 }
