@@ -28,8 +28,11 @@ namespace Chapter04
             //Exercise07 exercise07 = new Exercise07();
             //exercise07.Execute();
 
-            Exercise08 exercise08 = new Exercise08();
-            exercise08.Execute();
+            //Exercise08 exercise08 = new Exercise08();
+            //exercise08.Execute();
+
+            Exercise09 exercise09 = new Exercise09();
+            exercise09.Execute();
         }
     }
 }
