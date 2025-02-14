@@ -16,6 +16,12 @@ namespace Chapter04
             int Number = int.Parse(Console.ReadLine());
             int Counter = 1;
 
+            if (Number < 1)
+            {
+                Console.WriteLine("Invalid number");
+                return;
+            }
+
             while (Counter != Number)
             {
                 Console.WriteLine(Counter); Counter++;
