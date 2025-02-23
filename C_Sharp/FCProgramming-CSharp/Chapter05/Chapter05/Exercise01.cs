@@ -8,6 +8,9 @@ namespace Chapter05
 {
     class Exercise01
     {
-        public void
+        public void Execute() 
+        {
+            
+        }
     }
 }
