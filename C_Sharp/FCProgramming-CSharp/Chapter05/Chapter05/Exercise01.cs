@@ -10,7 +10,8 @@ namespace Chapter05
     {
         public void Execute() 
         {
-            
+            Console.WriteLine("Enter a number: ");
+    
         }
     }
 }
