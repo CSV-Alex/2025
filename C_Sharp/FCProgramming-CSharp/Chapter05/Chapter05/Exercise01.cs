@@ -10,21 +10,26 @@ namespace Chapter05
     {
         public void Execute()
         {
-            // Write an if-statement that takes two integer variables and exchanges
-            // their values if the first one is greater than the second one.
-
-            int a = 5;
-            int b = 10;
+            Console.WriteLine("Enter two numbers: ");
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
 
             if (a > b)
             {
                 int temp = a;
                 a = b;
                 b = temp;
+                Console.WriteLine("---------------------------");
+                Console.WriteLine("Higher number is b (switching): " + b);
+                Console.WriteLine("And now 'a' number is : " + a);
             }
             else
             {
+                Console.WriteLine("---------------------------");
                 Console.WriteLine("a is not greater than b");
+                Console.WriteLine("Not switching variables");
+                Console.WriteLine("a: " + a);
+                Console.WriteLine("b: " + b);
             }
         }
     }
