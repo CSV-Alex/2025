@@ -26,8 +26,10 @@ namespace Chapter05
             //exercise07.Execute();
             //Exercise08 exercise08 = new Exercise08();
             //exercise08.Execute();
-            Exercise09_a exercise09 = new Exercise09_a();
-            exercise09.Execute();
+            //Exercise09_a exercise09 = new Exercise09_a();
+            //exercise09.Execute();
+            Exercise10 exercise10 = new Exercise10();
+            exercise10.Execute();
 
         }
     }
