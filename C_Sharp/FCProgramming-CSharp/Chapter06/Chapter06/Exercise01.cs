@@ -8,6 +8,10 @@ namespace Chapter06
 {
     class Exercise01
     {
-        public void Execute() { }
+        public void Execute() 
+        {
+            // Exercise01 While
+        }
+
     }
 }
