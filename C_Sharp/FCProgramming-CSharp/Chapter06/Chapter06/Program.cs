@@ -38,8 +38,10 @@ namespace Chapter06
             //exercise13.Execute();
             //Exercise14 exercise14 = new Exercise14();
             //exercise14.Execute();
-            Exercise15 exercise15 = new Exercise15();
-            exercise15.Execute();
+            //Exercise15 exercise15 = new Exercise15();
+            //exercise15.Execute();
+            Exercise16 exercise16 = new Exercise16();
+            exercise16.Execute();
         }
     }
 }
