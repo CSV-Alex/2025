@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Chapter07
 {
-    class Program
+    class Exercise01
     {
-        static void Main(string[] args)
+        public void Execute()
         {
-            Exercise01 exercise01 = new Exercise01();
-            exercise01.Execute();
+
         }
     }
 }
