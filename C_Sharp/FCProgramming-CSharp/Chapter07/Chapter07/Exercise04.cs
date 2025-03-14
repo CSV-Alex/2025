@@ -33,7 +33,6 @@ namespace Chapter07
             }
 
             int current = numbers[0];
-            int numberMayor = numbers[0];
             int count = 1;
             int maxCount = 1;
 
@@ -45,7 +44,6 @@ namespace Chapter07
                     if (count > maxCount)
                     {
                         maxCount = count;
-                        numberMayor = current;
                     }
                 }
                 else
@@ -55,8 +53,7 @@ namespace Chapter07
                 }
             }
 
-            Console.WriteLine($"The longest sequence of equal numbers has {maxCount} elements.");
-            Console.WriteLine($"The number that appears in the longest sequence is: {numberMayor}");
+            Console.WriteLine($"The longest sequence of consecutive equal numbers has {maxCount} elements.");
         }
     }
 }
